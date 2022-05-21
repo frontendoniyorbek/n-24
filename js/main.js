@@ -3,10 +3,10 @@ const elModalClose = elModal.querySelector('.js-modal-close');
 
 if (elModalClose) {
   elModalClose.addEventListener('click',function () {
-    elModal.classList.remove('modal-open');
+    elModal.classList.remove('modal__open');
   });
 }
 
 setTimeout (function () {
-  elModal.classList.add('modal-open');
+  elModal.classList.add('modal__open');
 }, 30000);

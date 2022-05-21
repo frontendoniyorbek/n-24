@@ -90,6 +90,7 @@ body{
     margin-left: auto;
 }
 
+
 /* SITE-HEADER */
 .site-header__top {
     margin-bottom: 10px;
@@ -97,10 +98,12 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .site-header__top-container {
     display: flex;
     align-items: center;
 }
+
 .site-header__logo {
     background-color: #fff;
     color: #7296ec;

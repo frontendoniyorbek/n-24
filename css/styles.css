@@ -812,6 +812,8 @@ body{
     border-bottom: 1px solid #d2d2d2;
 }
 
+
+/* MODAL */
 .modal {
     display: none;
     position: fixed;
@@ -854,8 +856,8 @@ body{
     background-color: transparent;
     border: 0;
     cursor: pointer;
-}
 
+}
 .modal__close:hover {
     opacity: 0.8;
 }
@@ -864,7 +866,7 @@ body{
     opacity: 0.6;
 }
 
-.modal-close-icon {
+.modal__close-icon {
     display: block;
 }
 
